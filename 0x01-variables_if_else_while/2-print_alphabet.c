@@ -3,13 +3,14 @@
 * main - Entry
 * Return: Always 0
 */
-/* prints alpha in lower case */
+/* prints alpha in lowercase */
 int main(void)
 {
 char lc;
-for (lc = 'a'; lc <= 'Z', lc++;);
+
+for (lc = 'a'; lc <= 'z'; lc++)
 {
-putchar(lc);
+putchar (lc);
 }
 putchar('\n');
 return (0);
