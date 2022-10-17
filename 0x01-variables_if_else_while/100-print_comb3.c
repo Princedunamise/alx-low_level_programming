@@ -12,6 +12,10 @@ for (x = 0; x <= 100; x++)
 {
 putchar((x / 9) + '0');
 putchar((x % 9) + '0');
+{
+putchar(',');
+putchar(' ');
+}
 putchar('\n');
 }
 return (0);
