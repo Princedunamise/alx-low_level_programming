@@ -10,8 +10,8 @@ int x;
 
 for (x = 0; x <= 100; x++)
 {
-putchar((x / 10) + '0');
-putchar((x % 10) + '0');
+putchar((x / 9) + '0');
+putchar((x % 9) + '0');
 putchar('\n');
 }
 return (0);
