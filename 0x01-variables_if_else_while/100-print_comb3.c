@@ -4,24 +4,22 @@
 * Return: Always 0
 */
 /* prints combination of two digits */
-int main()
+int main(void)
 {
 
-int x, y;
+int m, n;
 
-for (x = 48; x <= 56; x++)
+for (m = 48; m <= 56; m++)
 {
 
-for (y = 49; y <= 57; y++)
+for (n = 49; n <= 57; n++)
 {
 
-if (y > x)
+if (n > m)
 {
-
-putchar(y);
-putchar(x);
-
-if (x != 56 || y != 57)
+putchar(m);
+putchar(n);
+if (m != 56 || n != 57)
 {
 
 putchar(',');
