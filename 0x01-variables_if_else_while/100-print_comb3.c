@@ -27,7 +27,9 @@ if (x != 56 || y != 57)
 putchar(',');
 putchar(' ');
 }
-
+}
+}
+}
 putchar('\n');
 return (0);
 }
