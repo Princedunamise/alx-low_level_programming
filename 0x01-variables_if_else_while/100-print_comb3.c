@@ -4,20 +4,30 @@
 * Return: Always 0
 */
 /* prints combination of two digits */
-int main(void)
+int main()
 {
-int x;
 
-for (x = 0; x < 100; x++)
+int x, y;
+
+for (x = 48; x <= 56; x++)
 {
-putchar((x / 9) + '0');
-putchar((x % 9) + '0');
+
+for (y = 49; y <= 57; y++)
 {
+
+if (y > x)
+{
+
+putchar(y);
+putchar(x);
+
+if (x != 56 || y != 57)
+{
+
 putchar(',');
 putchar(' ');
 }
+
 putchar('\n');
-}
 return (0);
 }
-
